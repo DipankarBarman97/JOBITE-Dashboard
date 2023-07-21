@@ -1,9 +1,4 @@
 @media only screen and (max-width: 992px) {
-    /* Header */
-  /* .header {
-    padding: 0.5rem 3rem;
-  } */
-
   .container {
     width: 100%;
     padding: 2rem;
@@ -31,40 +26,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  /* .header-right svg {
-    display: block;
-  }
-  .header-right .header-ul {
-    flex-direction: column;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #ffffff;
-    min-width: 100%;
-    min-height: 100vh;
-    z-index: 999;
-    padding-top: 6rem;
-  }
-  .header-right .header-ul a {
-    font-size: 1.4rem;
-  }
-  .header-ul svg {
-    margin-top: 8rem;
-  }
-
-  .header-left .logo {
-    font-size: 1.2rem;
-  }
-  .header-right ul a {
-    font-size: 0.9rem;
-  }
-  .inner-hr-right select {
-    font-size: 0.9rem;
-  }
-  .inner-hr-right svg {
-    font-size: 1.6rem;
-  } */
-
   .header {
     position: relative;
   }
@@ -97,21 +58,12 @@
   }
   .nav-button {
     display: block;
-    /* z-index: 999; */
     position: absolute;
     left: 25%;
   }
   .nav-button .nav-icon {
     font-size: 1.2rem;
   }
-
-  /* Header */
-  /* .header {
-    padding: 0.5rem 1.5rem;
-  }
-  .nav-list li a {
-    font-size: 1.1rem;
-} */
 
   .left-box {
     font-size: 0.9rem;
@@ -146,9 +98,24 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .nav-button {
-        left: 30%;
-      }
+  .header {
+    padding: 0 1rem;
+  }
+  .header .logo-h {
+    font-size: 1.2rem;
+  }
+  .hr-right {
+    gap: 0.4rem;
+  }
+  .inner-hr-right {
+    gap: 0;
+  }
+  .inner-hr-right svg {
+    font-size: 1.4rem;
+  }
+  .nav-button {
+    left: 37%;
+  }
 
   .left-box-menu-btn {
     height: 1.4rem;
