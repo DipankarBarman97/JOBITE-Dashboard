@@ -1,0 +1,44 @@
+.multi-range-slider {
+  border: 0;
+  box-shadow: none;
+  padding-top: 0;
+}
+.multi-range-slider .ruler .ruler-rule {
+  display: none;
+}
+.multi-range-slider .bar-inner {
+  background-color: royalblue;
+  box-shadow: none;
+  border: 0;
+}
+.multi-range-slider .bar-left {
+  background-color: #ddd;
+  border-radius: 5px;
+  box-shadow: none;
+}
+.multi-range-slider .bar-right {
+  background-color: #ddd;
+  border-radius: 5px;
+  box-shadow: none;
+}
+.multi-range-slider .thumb {
+  background: royalblue;
+}
+.multi-range-slider .thumb::before {
+  border: solid 3px #fff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+.multi-range-slider .thumb .caption * {
+  background-color: #000;
+  border-radius: 4px;
+  color: white;
+  box-shadow: none;
+}
+.multi-range-slider .label {
+    color: #4d5156;
+    font-size: 0.9rem;
+}
+.multi-range-slider .label::before {
+  content: "$";
+}
